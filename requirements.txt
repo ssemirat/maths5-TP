@@ -1,4 +1,4 @@
 numpy
 matplotlib
-pan das
+pandas
 scikit-learn
