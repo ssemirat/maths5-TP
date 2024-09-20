@@ -82,7 +82,8 @@ Rappel de cours : \textbf{\Large Maximum de vraisemblance.}
 L'analyse de données vise à déterminer $P$.
 
 Si les valeurs de $Y$ sont effectivement issues de $P$, alors étant donné $X_j$, la probabilité d'observer $Y=1$ est $P(Y=1|X_j)$, et celle d'observer $Y=0$ est $1-P(Y=1|X_j)$.
-Plus généralement, si chaque observation est indépendante des autres, alors la \emph{vraisemblance} de la loi $P$, donnée par $$L(P)=\prod\limits_{j:Y_j=1} P(Y=1|X_j)^{Y_j}\prod\limits_{j:Y_j=0}(1-P(Y=1|X_j))$$ est la probabilité d'observer $Y=Y_1$ étant donné $X_1$ \textit{et} $Y=Y_2$ étant donné $X_2$ \textit{et} \ldots \textit{et} $Y=Y_J$ étant donné $X_J$. C'est la probabilité d'observer les données effectivement observées.
+Plus généralement, si chaque observation est indépendante des autres, alors la \emph{vraisemblance} de la loi $P$, donnée par $$L(P)=\prod\limits_{j:Y_j=1} P(Y=1|X_j)\prod\limits_{j:Y_j=0}(1-P(Y=1|X_j))$$ est la probabilité d'observer $Y=Y_1$ étant donné $X_1$, \textit{et} $Y=Y_2$ étant donné $X_2$, \textit{et}, \ldots, \textit{et} $Y=Y_J$ étant donné $X_J$. 
+C'est la probabilité d'observer les données effectivement observées.
 
 En général, on paramétrise $P$, et le problème est alors de trouver la valeur des paramètres maximisant la vraisemblance de $P$.
 \clearpage
